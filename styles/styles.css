@@ -81,6 +81,7 @@ body {
   font-weight: 700;
   width: 216px;
   height: 50px;
+  font-family: var(--primary-text);
 }
 
 .pros {
@@ -145,4 +146,33 @@ body {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   line-height: calc(24 / 14);
+}
+
+.portfolio-button {
+  height: 38px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  cursor: pointer;
+  text-align: center;
+  background-color: #f5f4fa;
+  font-family: var(--primary-text);
+}
+
+.portfolio-button:hover {
+  background-color: var(--secondary-brand-color);
+  color: var(--primary-background-color);
+}
+
+.portfolio-item-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+}
+
+.portfolio-item-group {
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  color: #757575;
 }
